@@ -122,6 +122,7 @@ public class GamePanel extends SurfaceView implements SurfaceHolder.Callback {
                 drawText(canvas, paint2, "Tap To Restart Game");
             }
         }
+        //TODO GAME OVER
     }
 
     private void drawText(Canvas canvas, Paint paint, String text) {

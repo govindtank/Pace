@@ -72,7 +72,7 @@ public class ObstacleManager {
         paint1.setTextSize(20);
         paint.setColor(Color.rgb(255, 119,0));
         canvas.drawText("Score " + score, 50, 50 + paint.descent() - paint.ascent(), paint);
-        canvas.drawText("uilt by Kelvin Kamau", 50, 80 + paint.descent() - paint.ascent(), paint1 );
+        canvas.drawText("Built by Kelvin Kamau", 50, 80 + paint.descent() - paint.ascent(), paint1 );
 
     }
 }

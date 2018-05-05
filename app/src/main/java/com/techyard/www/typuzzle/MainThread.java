@@ -2,7 +2,9 @@ package com.techyard.www.typuzzle;
 
 import android.graphics.Canvas;
 import android.view.SurfaceHolder;
-
+/*
+ * Created by Kelvin Kamau on 01/05/2018
+ */
 public class MainThread extends  Thread {
     public static final int MAX_FPS = 30;
     private double averageFPS;

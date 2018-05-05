@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">TY Puzzle</string>
+    <string name="app_name">Pace</string>
+    <string name="description">Loading... </string>
 </resources>

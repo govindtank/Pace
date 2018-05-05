@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "638642259598",
+    "firebase_url": "https://pace-game.firebaseio.com",
+    "project_id": "pace-game",
+    "storage_bucket": "pace-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638642259598:android:52e00fde3ea6ee68",
+        "android_client_info": {
+          "package_name": "com.techyard.www.typuzzle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638642259598-fdhat73lnad7999aqt8pghg4sactm2ig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techyard.www.typuzzle",
+            "certificate_hash": "3a9bf79ecc35a9f2f5095442a98c22cf17e761ad"
+          }
+        },
+        {
+          "client_id": "638642259598-ficdebfi7uj10jb6pd1ceq6si2toenrp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgu2QrE8rjAPn0kFRjDui6qqv5uTykCms"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638642259598-ficdebfi7uj10jb6pd1ceq6si2toenrp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

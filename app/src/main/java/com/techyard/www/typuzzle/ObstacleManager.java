@@ -28,7 +28,6 @@ public class ObstacleManager {
         startTime = initTime = System.currentTimeMillis();
         obstacles = new ArrayList<>();
         populateObstacles();
-
     }
 
     public boolean playerCollide(RectPlayer player) {
@@ -73,7 +72,7 @@ public class ObstacleManager {
         paint1.setTextSize(20);
         paint.setColor(Color.rgb(255, 119,0));
         canvas.drawText("Score " + score, 50, 50 + paint.descent() - paint.ascent(), paint);
-        canvas.drawText("Built by Kelvin Kamau", 50, 80 + paint.descent() - paint.ascent(), paint1 );
+        canvas.drawText("uilt by Kelvin Kamau", 50, 80 + paint.descent() - paint.ascent(), paint1 );
 
     }
 }

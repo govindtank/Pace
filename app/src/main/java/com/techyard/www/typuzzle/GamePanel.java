@@ -26,6 +26,7 @@ public class GamePanel extends SurfaceView implements SurfaceHolder.Callback {
 
     public GamePanel(Context context) {
         super(context);
+
         getHolder().addCallback(this);
         thread = new MainThread(getHolder(), this);
         player = new RectPlayer(new Rect(100, 100, 200, 200), Color.rgb(255, 119, 0));

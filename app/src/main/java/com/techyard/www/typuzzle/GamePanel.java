@@ -1,6 +1,8 @@
 package com.techyard.www.typuzzle;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -24,6 +26,8 @@ public class GamePanel extends SurfaceView implements SurfaceHolder.Callback {
     private boolean movingPlayer = false;
     private boolean gameOver = false;
     private long gameOverTime;
+
+    //TODO : Add background music
 
     public GamePanel(Context context) {
         super(context);
@@ -123,7 +127,6 @@ public class GamePanel extends SurfaceView implements SurfaceHolder.Callback {
                 drawText(canvas, paint2, "Tap To Restart Game");
             }
         }
-        //TODO GAME OVER
     }
 
     private void drawText(Canvas canvas, Paint paint, String text) {
